@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, Helvetica, sans-serif ;
+    background-color: rgb(250, 241, 241);
+}
+
+h1 {
+    text-align: center;
+}
+
+#play {
+    display: block;
+    margin: 0 auto;
+    padding: 20px 30px 20px 30px;
+}
+
+#buttonsChoice {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto 20px auto;
+}
+
+.buttons {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0px 20px 0px 20px;
+    width: 100px;
+}
+
+p {
+    text-align: center;
+}
+
+#reset {
+    display: block;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 40px 50px 40px 50px;
+    border: solid 2px;
+    border-radius: 3px;
+}
+
+#screen {
+    display: grid;
+    grid-template-areas: 
+        "PlayerScreen rounds ComputerScreen"
+        "ScorePlayer rounds ScoreComputer";
+    justify-content: center;
+    margin: 0 40px 40px 40px;
+    text-align: center;
+}
+
+#PlayerScreen {
+    grid-area: PlayerScreen;
+    width: 15vw;
+    margin: auto auto auto auto;
+    padding: 10px 0px 10px 0px;
+}
+
+#ScorePlayer {
+    grid-area: ScorePlayer;
+    border: solid 2px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+#ScoreComputer {
+    grid-area: ScoreComputer;
+    border: solid 2px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 50px;
+
+}
+
+.rounds {
+    grid-area: rounds;
+    width: 60vw;
+    display: block;
+    justify-content: center;
+    border-left: 0px;
+    border-right: 0px;
+    padding: 0px 10px 0px 10px;
+    border: solid 1px;
+    border-color: rgb(135, 141, 141);
+    padding-top: 4px;
+    background-color: rgb(238, 236, 236);
+}
+
+#ComputerScreen {
+    grid-area: ComputerScreen;
+    width: 15vw;
+    padding: 10px 0px 10px 0px;
+}
+
+
+
